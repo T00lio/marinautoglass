@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../images/marinauto.png";
 import "../components/Hero.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function HeroSection() {
   return (
