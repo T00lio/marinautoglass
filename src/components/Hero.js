@@ -8,7 +8,7 @@ function HeroSection() {
       <div className="hero-section">
         <div className="container">
           <div className="row">
-            <div className="welcome-message col">
+            <div className="welcome-message col shadow-lg p-3 mb-5 bg-body-tertiary rounded">
               <h3 className="title">
                 Welcome to Marin Auto Glass Cape Coral, Fl
               </h3>
@@ -19,9 +19,9 @@ function HeroSection() {
                 2919 Email: marinautoglasscorp@gmail.com <br></br>Hours: 8am-5pm
                 <br></br> Address: 1414 SE 10th St, Cape Coral, FL 33990{" "}
               </p>
-              <button className="btn btn-danger mx-auto mb-5 d-flex">
-                Contactame
-              </button>
+              <div className="d col-12">
+                <button className="btn btn-danger col-12">Contactame</button>
+              </div>
             </div>
           </div>
           <br></br>
