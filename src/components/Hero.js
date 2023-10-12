@@ -20,7 +20,7 @@ function HeroSection() {
                 <br></br> Address: 1414 SE 10th St, Cape Coral, FL 33990{" "}
               </p>
               <div className="d col-12">
-                <button className="btn btn-danger col-12">Contactame</button>
+                <button className="btn btn-danger col-12">Contáctame</button>
               </div>
             </div>
           </div>
