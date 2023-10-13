@@ -35,7 +35,7 @@ function HeroSection() {
           <br></br>
           <section className="row">
             <h1
-              className="display-1 text-center"
+              className="title"
               style={{ color: "white", textAlign: "center", margin: "auto" }}
             >
               Services
