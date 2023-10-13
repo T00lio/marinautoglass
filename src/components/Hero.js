@@ -1,11 +1,16 @@
 import React from "react";
 import "../components/Hero.css";
-import marinvan from "../images/marinvan.jpg";
 import rv from "../images/rv.jpg";
 import broken from "../images/broken.jpg";
-import window from "../images/window.jpg";
+import windshield from "../images/window.jpg";
 
 function HeroSection() {
+  const whatsappNumber = "17867182919";
+
+  const handleWhatsAppClick = () => {
+    const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}`;
+    window.open(url, "_blank");
+  };
   return (
     <>
       <div className="hero-section">
@@ -23,7 +28,13 @@ function HeroSection() {
                 <br></br> Address: 1414 SE 10th St, Cape Coral, FL 33990{" "}
               </p>
               <div className="d col-12">
-                <button className="btn btn-danger col-12">Contáctame</button>
+                <button
+                  onClick={handleWhatsAppClick}
+                  className="btn btn-danger col-12"
+                  href="https://api.whatsapp.com/send?phone=17863146121"
+                >
+                  Contáctame
+                </button>
               </div>
             </div>
           </div>
@@ -38,7 +49,7 @@ function HeroSection() {
             <div class="container mt-5 mb-5">
               <div class="row">
                 <div class="col text-center">
-                  <div class="card" style={{ width: "18rem" }}>
+                  <div class="card " style={{ width: "18rem" }}>
                     <img
                       src={broken}
                       class="card-img-top object-fit-cover"
@@ -46,8 +57,8 @@ function HeroSection() {
                     />
                     <div class="card-body">
                       <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        Reparamos todo tipo de vidrios de autos, camiones,
+                        camionetas, etc.
                       </p>
                     </div>
                   </div>
@@ -61,8 +72,8 @@ function HeroSection() {
                     />
                     <div class="card-body">
                       <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        instalacion y delivery de vidrios para RVs, Motorhomes y
+                        Campers
                       </p>
                     </div>
                   </div>
@@ -70,14 +81,14 @@ function HeroSection() {
                 <div class="col text-center">
                   <div class="card" style={{ width: "18rem" }}>
                     <img
-                      src={window}
+                      src={windshield}
                       class="card-img-top object-fit-cover"
                       alt="..."
                     />
                     <div class="card-body">
                       <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        Reemplazamos y reparamos vidrios de puertas y ventanas,
+                        control de motores y cerraduras de puertas y ventanas.
                       </p>
                     </div>
                   </div>

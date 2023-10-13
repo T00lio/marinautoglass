@@ -10,6 +10,7 @@ function App() {
         <Navbar />
       </header>
       <HeroSection />
+      <section className="row"></section>
       <footer className="footer">
         {" "}
         Coded by <strong>Tulio Salvatierra 2023</strong>
