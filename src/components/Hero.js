@@ -44,7 +44,7 @@ function HeroSection() {
               className="display-1 text-center"
               style={{ color: "white", textAlign: "center", margin: "auto" }}
             >
-              About Us
+              Services
             </h1>
             <div class="container mt-5 mb-5">
               <div class="row">
