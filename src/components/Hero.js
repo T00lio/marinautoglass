@@ -1,6 +1,9 @@
 import React from "react";
 import "../components/Hero.css";
 import marinvan from "../images/marinvan.jpg";
+import rv from "../images/rv.jpg";
+import broken from "../images/broken.jpg";
+import window from "../images/window.jpg";
 
 function HeroSection() {
   return (
@@ -34,9 +37,13 @@ function HeroSection() {
             </h1>
             <div class="container mt-5 mb-5">
               <div class="row">
-                <div class="col">
+                <div class="col text-center">
                   <div class="card" style={{ width: "18rem" }}>
-                    <img src={marinvan} class="card-img-top" alt="..." />
+                    <img
+                      src={broken}
+                      class="card-img-top object-fit-cover"
+                      alt="..."
+                    />
                     <div class="card-body">
                       <p class="card-text">
                         Some quick example text to build on the card title and
@@ -45,9 +52,13 @@ function HeroSection() {
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                   <div class="card" style={{ width: "18rem" }}>
-                    <img src={marinvan} class="card-img-top" alt="..." />
+                    <img
+                      src={rv}
+                      class="card-img-top object-fit-cover"
+                      alt="..."
+                    />
                     <div class="card-body">
                       <p class="card-text">
                         Some quick example text to build on the card title and
@@ -56,9 +67,13 @@ function HeroSection() {
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                   <div class="card" style={{ width: "18rem" }}>
-                    <img src={marinvan} class="card-img-top" alt="..." />
+                    <img
+                      src={window}
+                      class="card-img-top object-fit-cover"
+                      alt="..."
+                    />
                     <div class="card-body">
                       <p class="card-text">
                         Some quick example text to build on the card title and
