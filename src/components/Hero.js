@@ -43,7 +43,7 @@ function HeroSection() {
             <div class="container mt-5 mb-5">
               <div class="row">
                 <div class="col d-flex align-items-center justify-content-center">
-                  <div class="card " style={{ width: "20rem" }}>
+                  <div className="card " style={{ width: "20rem" }}>
                     <img
                       src={broken}
                       class="card-img-top object-fit-cover"
@@ -59,7 +59,7 @@ function HeroSection() {
                 </div>
                 <div class="col d-flex align-items-center justify-content-center">
                   <div
-                    class="card"
+                    className="card"
                     style={{
                       width: "20rem",
                     }}
@@ -78,7 +78,7 @@ function HeroSection() {
                   </div>
                 </div>
                 <div class="col d-flex align-items-center justify-content-center">
-                  <div class="card" style={{ width: "20rem" }}>
+                  <div className="card" style={{ width: "20rem" }}>
                     <img
                       src={windshield}
                       class="card-img-top object-fit-cover"

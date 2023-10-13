@@ -64,3 +64,8 @@
     rgba(252, 70, 70, 1) 100%
   );
 }
+
+.card {
+  margin-left: 40%;
+  padding: 1rem;
+}
