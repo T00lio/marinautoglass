@@ -21,10 +21,11 @@
 .title {
   font-weight: 700;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
+  font-family: "pt sans", monospace;
 }
 .footer {
   color: white;
