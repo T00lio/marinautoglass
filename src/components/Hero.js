@@ -1,15 +1,15 @@
-import React from "react";
 import "../components/Hero.css";
 import rv from "../images/rv.jpg";
 import broken from "../images/broken.jpg";
 import windshield from "../images/window.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function HeroSection() {
-  const whatsappNumber = "17867182919";
+  const phoneNumber = "17867182919";
 
-  const handleWhatsAppClick = () => {
-    const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}`;
-    window.open(url, "_blank");
+  const handleClick = () => {
+    const url = `tel:${phoneNumber}`;
+    window.location.href = url;
   };
   return (
     <>
@@ -25,11 +25,10 @@ function HeroSection() {
                 Mobile & shop installation Cape Coral: Windshield replacement/
                 repair. Also we fix window motors & locks.<br></br> Tel: 786 718
                 2919 Email: marinautoglasscorp@gmail.com <br></br>Hours: 8am-5pm
-                <br></br> Address: 1414 SE 10th St, Cape Coral, FL 33990{" "}
               </p>
               <div className="d col-12">
                 <button
-                  onClick={handleWhatsAppClick}
+                  onClick={handleClick}
                   className="btn btn-danger col-12"
                   href="https://api.whatsapp.com/send?phone=17863146121"
                 >
