@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Navbar />
       </header>
       <HeroSection />
-      <section className="row"></section>
+      <About />
       <footer className="footer">
         {" "}
         Coded by <strong>Tulio Salvatierra 2023</strong>
