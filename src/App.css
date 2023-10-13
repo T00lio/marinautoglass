@@ -2,11 +2,7 @@
   text-align: center;
   font-family: "PT Sans", sans-serif;
   color: white;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background: rgb(22, 29, 117);
 }
 
 .App-header {

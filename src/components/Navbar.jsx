@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar- bg-light">
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand" href="/">
           <img
@@ -14,6 +14,9 @@ function Navbar() {
             height="50"
             style={{ borderRadius: 25 }}
           />
+          <span className="navbar-brand-name ml-2">
+            <strong>Marin Auto Glass</strong>
+          </span>
         </a>
         <button
           className="navbar-toggler"

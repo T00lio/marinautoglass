@@ -1,4 +1,11 @@
 .navbar {
   font-family: "PT Sans", sans-serif;
   color: white;
+  background-color: rgba(15, 8, 59, 0.914);
+}
+
+.nav-link,
+span {
+  color: white;
+  text-decoration: none;
 }

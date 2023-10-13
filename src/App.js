@@ -6,19 +6,14 @@ function App() {
   return (
     <>
       {" "}
-      <div lassName="App">
-        <header>
-          <Navbar />
-        </header>
-        <section className="container">
-          <HeroSection />
-        </section>
-
-        <footer className="footer">
-          {" "}
-          Coded by <strong>Tulio Salvatierra 2023</strong>
-        </footer>
-      </div>
+      <header>
+        <Navbar />
+      </header>
+      <HeroSection />
+      <footer className="footer">
+        {" "}
+        Coded by <strong>Tulio Salvatierra 2023</strong>
+      </footer>
     </>
   );
 }
