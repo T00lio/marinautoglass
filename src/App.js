@@ -7,8 +7,12 @@ function App() {
     <>
       {" "}
       <div lassName="App">
-        <Navbar />
-        <HeroSection />
+        <header>
+          <Navbar />
+        </header>
+        <section className="container">
+          <HeroSection />
+        </section>
 
         <footer className="footer">
           {" "}
