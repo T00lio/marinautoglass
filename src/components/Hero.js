@@ -26,11 +26,7 @@ function HeroSection() {
                 2919 Email: marinautoglasscorp@gmail.com <br></br>Hours: 8am-5pm
               </p>
               <div className="d col-12">
-                <button
-                  onClick={handleClick}
-                  className="btn btn-danger col-12"
-                  href="https://api.whatsapp.com/send?phone=17863146121"
-                >
+                <button onClick={handleClick} className="btn btn-danger col-12">
                   Contáctame
                 </button>
               </div>
@@ -47,7 +43,7 @@ function HeroSection() {
             <div class="container mt-5 mb-5">
               <div class="row">
                 <div class="col d-flex align-items-center justify-content-center">
-                  <div class="card " style={{ width: "36rem" }}>
+                  <div class="card " style={{ width: "20rem" }}>
                     <img
                       src={broken}
                       class="card-img-top object-fit-cover"
@@ -65,7 +61,7 @@ function HeroSection() {
                   <div
                     class="card"
                     style={{
-                      width: "36rem",
+                      width: "20rem",
                     }}
                   >
                     <img
@@ -82,7 +78,7 @@ function HeroSection() {
                   </div>
                 </div>
                 <div class="col d-flex align-items-center justify-content-center">
-                  <div class="card" style={{ width: "36rem" }}>
+                  <div class="card" style={{ width: "20rem" }}>
                     <img
                       src={windshield}
                       class="card-img-top object-fit-cover"
