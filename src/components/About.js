@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <h1 className="title">About us</h1>
-      <div className="about">
+      <div className="about shadow p-3 mb-5 bg-white rounded">
         <p
           style={{
             textAlign: "center",
