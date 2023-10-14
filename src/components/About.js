@@ -23,7 +23,7 @@ const About = () => {
           so it happened!!! He arrived exactly at 8.30, I didn’t have to wait
           for him. I recommend this service to everyone."
         </p>
-        <footer className="footer">
+        <footer className="footer" style={{ color: "white" }}>
           {" "}
           <strong>
             "Dmitri Massiouta" - ⭐️⭐️⭐️⭐️⭐️ <p> google reviews</p>
