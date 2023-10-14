@@ -31,12 +31,13 @@ const About = () => {
         </footer>
         <img
           src={marinvan}
+          className="img-fluid"
           alt="placeholder"
           style={{
             margin: "auto",
             marginTop: "20px",
-            width: 500,
-            height: 350,
+            maxWidth: "80%",
+            height: "auto",
             marginBottom: "2rem",
             borderRadius: "10px",
           }}
