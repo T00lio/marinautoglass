@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import marinvan from "../images/marinvan.jpg";
 import marinreview from "../images/marinreview.png";
 import marinreview2 from "../images/marinreview2.png";
 import marinreview3 from "../images/marinreview3.png";
