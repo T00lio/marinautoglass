@@ -15,7 +15,7 @@ function HeroSection() {
       <div className="hero-section">
         <div className="container">
           <div className="row">
-            <div className="welcome-message col shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <div className="welcome-message">
               <h3 className="title">
                 Welcome to Marin Auto Glass Cape Coral, Fl
               </h3>
@@ -25,9 +25,18 @@ function HeroSection() {
                 repair. Also we fix window motors & locks.<br></br> Tel: 786 718
                 2919 Email: marinautoglasscorp@gmail.com <br></br>Hours: 8am-5pm
               </p>
-              <div className="d col-12">
-                <button onClick={handleClick} className="btn btn-danger col-12">
-                  Contáctame
+              <br></br>
+              <div className="row">
+                <button
+                  className="btn btn-danger col-10"
+                  style={{
+                    marginBottom: "2rem",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                  }}
+                  onClick={handleClick}
+                >
+                  Call Now
                 </button>
               </div>
             </div>
