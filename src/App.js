@@ -8,9 +8,7 @@ function App() {
   return (
     <>
       {" "}
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <HeroSection />
       <About />
       <Footer />

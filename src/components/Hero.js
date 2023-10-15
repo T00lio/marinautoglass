@@ -1,4 +1,4 @@
-import "../components/Hero.css";
+import "./Hero.css";
 import rv from "../images/rv.jpg";
 import broken from "../images/broken.jpg";
 import windshield from "../images/window.jpg";
@@ -16,10 +16,11 @@ function HeroSection() {
         <div className="container">
           <div className="row">
             <div className="welcome-message col shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              <h3 className="title">
+                Welcome to Marin Auto Glass Cape Coral, Fl
+              </h3>
+
               <p className="text">
-                <h3 className="title">
-                  Welcome to Marin Auto Glass Cape Coral, Fl
-                </h3>
                 Mobile & shop installation Cape Coral: Windshield replacement/
                 repair. Also we fix window motors & locks.<br></br> Tel: 786 718
                 2919 Email: marinautoglasscorp@gmail.com <br></br>Hours: 8am-5pm
