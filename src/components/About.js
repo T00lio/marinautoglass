@@ -11,8 +11,8 @@ const About = () => {
         About us
       </h1>
       <div className="about shadow p-3 mb-5 bg-white rounded">
-        <div className="container">
-          <div className="row row-cols-2">
+        <div className="container-fluid">
+          <div className="row row-cols-1 row-cols-md-2">
             <div className="col">
               {" "}
               <p
