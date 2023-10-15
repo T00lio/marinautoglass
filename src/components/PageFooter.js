@@ -2,9 +2,7 @@ import React from "react";
 
 const PageFooter = () => {
   return (
-    <footer
-      style={{ fontFamily: "roboto", marginLeft: "auto", marginRight: "auto" }}
-    >
+    <footer style={{ textAlign: "center" }}>
       {" "}
       Coded by{" "}
       <strong>
