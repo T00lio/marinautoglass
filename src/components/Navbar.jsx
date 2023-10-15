@@ -19,7 +19,7 @@ function Navbar() {
           </span>
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01"
@@ -31,7 +31,7 @@ function Navbar() {
         </button>
         <div
           className="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
+          id="navbarTogglerDemo01"
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
