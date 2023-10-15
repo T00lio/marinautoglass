@@ -1,5 +1,6 @@
 import React from "react";
 import marinvan from "../images/marinvan.jpg";
+import "./Contact.css";
 
 function ContactSection() {
   return (
@@ -16,7 +17,12 @@ function ContactSection() {
           <img
             src={marinvan}
             alt="marinvan"
-            style={{ borderRadius: "1rem", marginBottom: "2rem" }}
+            style={{
+              borderRadius: "1rem",
+              marginBottom: "2rem",
+              width: "100%",
+              height: "auto",
+            }}
           ></img>
         </section>
         <br />
