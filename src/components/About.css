@@ -28,3 +28,11 @@
   margin-bottom: 4rem;
   font-family: "pt sans", monospace;
 }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
