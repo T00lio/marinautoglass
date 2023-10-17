@@ -19,20 +19,17 @@ function Navbar() {
           </span>
         </a>
         <button
-          className="navbar-toggler"
-          type="toggle"
+          class="navbar-toggler"
+          type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          className="collapse navbar-collapse justify-content-end"
-          id="#navbarTogglerDemo01"
-        >
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link" href="#about">
