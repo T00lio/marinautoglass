@@ -8,7 +8,6 @@ import ContactSection from "./components/Contact";
 function App() {
   return (
     <>
-      {" "}
       <Navbar />
       <HeroSection />
       <About />
