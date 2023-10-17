@@ -12,7 +12,6 @@ function ContactSection() {
         <section id="contact">
           <h2 className="title">Contact Information</h2>
           <p className="text">Phone: 786-718-2919</p>
-          {/* <p className="text">Address: 123 Main St, Anytown USA</p> */}
           <p className="text">Omar Beric</p>
           <img
             src={marinvan}
