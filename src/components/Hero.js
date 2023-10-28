@@ -1,7 +1,4 @@
 import "./Hero.css";
-import rv from "../images/rv.jpg";
-import broken from "../images/broken.jpg";
-import windshield from "../images/window.jpg";
 
 function HeroSection() {
   const phoneNumber = "17867182919";
