@@ -17,18 +17,18 @@ function HeroSection() {
           <div className="row">
             <div className="welcome-message">
               <h3 className="title">
-                Welcome to Marin Auto Glass Cape Coral, Fl
+                The onwer of Marin Auto Glass, asked me to make this website and
+                did not pay me, so if you see him, don't do business with him.
               </h3>
 
               <p className="text">
-                Mobile & shop installation Cape Coral: Windshield replacement/
-                repair. Also we fix window motors & locks.<br></br> Tel: 786 718
-                2919 Email: marinautoglasscorp@gmail.com <br></br>Hours: 8am-5pm
+                El dueño de Marin Auto Glass, me encargo este sitio web para su
+                negocio y no me pagó, así que si lo ves, no le hagas negocios.
               </p>
               <br></br>
               <div className="row">
                 <button
-                  className="btn btn-danger col-10"
+                  className="btn btn-danger col-10 disabled"
                   style={{
                     marginBottom: "2rem",
                     marginLeft: "auto",
@@ -56,75 +56,7 @@ function HeroSection() {
             </div>
           </div>
           <br></br>
-          <section className="row">
-            <h1
-              className="title"
-              id="services"
-              style={{ color: "white", textAlign: "center", margin: "auto" }}
-            >
-              Services
-            </h1>
-            <div className="container mt-5 mb-5">
-              <div className="row">
-                <div className="col">
-                  <div
-                    className="card shadow p-3 mb-5 bg-white rounded"
-                    style={{ width: "20rem" }}
-                  >
-                    <img
-                      src={broken}
-                      className="card-img-top object-fit-cover"
-                      alt="..."
-                    />
-                    <div className="card-body">
-                      <p className="card-text">
-                        Reparamos todo tipo de vidrios de autos, camiones,
-                        camionetas, etc.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col ">
-                  <div
-                    className="card shadow p-3 mb-5 bg-white rounded"
-                    style={{
-                      width: "20rem",
-                    }}
-                  >
-                    <img
-                      src={rv}
-                      className="card-img-top object-fit-cover"
-                      alt="..."
-                    />
-                    <div className="card-body">
-                      <p className="card-text">
-                        instalacion y delivery de vidrios para RVs, Motorhomes y
-                        Campers
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col ">
-                  <div
-                    className="card shadow p-3 mb-5 bg-white rounded"
-                    style={{ width: "20rem" }}
-                  >
-                    <img
-                      src={windshield}
-                      className="card-img-top object-fit-cover"
-                      alt="..."
-                    />
-                    <div className="card-body">
-                      <p className="card-text">
-                        Reemplazamos y reparamos vidrios de puertas y ventanas,
-                        control de motores y cerraduras de puertas y ventanas.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <section className="row"></section>
         </div>
       </div>
     </>

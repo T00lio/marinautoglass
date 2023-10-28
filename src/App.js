@@ -10,8 +10,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      <About />
-      <ContactSection />
+
       <PageFooter />
     </>
   );
